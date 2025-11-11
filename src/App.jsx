@@ -1,16 +1,14 @@
-// import AllRoutes from "./route/allRoutes"
+import AllRoutes from "./route/allRoutes"
 
-import Login from "./pages/login"
-import SignUp from "./pages/signup"
+
 
 function App() {
  
 
   return (
     <main>
-      {/* <AllRoutes/> */}
-      <Login/>
-      <SignUp/>
+      <AllRoutes/>
+      
     </main>
   )
 }

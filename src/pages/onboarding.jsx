@@ -10,6 +10,11 @@ const Onboarding = () => {
                 <label htmlFor="age">Age:</label>
                 <input type="number" id="age" name="age" required />
             </div>
+
+            <div>
+                <label htmlFor="country">country:</label>
+                <input type="number" id="country" name="country" required />
+            </div>
             <div>
                 <label htmlFor="bio">Bio:</label>
                 <textarea id="bio" name="bio" required></textarea>

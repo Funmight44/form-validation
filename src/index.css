@@ -43,7 +43,7 @@ form label{
   font-weight: bold;
 }
 
-form input, form button{
+form input, form button, form textarea{
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
