@@ -14,7 +14,7 @@ const Dashboard = () => {
       if (currentUser) {
         setUser(currentUser);
       } else {
-        navigate('/login'); 
+        navigate('/'); 
       }
       setLoading(false);
     });
@@ -25,7 +25,7 @@ const Dashboard = () => {
   const handleLogout = async () => {
     try {
       await signOut(auth);
-      navigate('/login');
+      navigate('/');
     } catch (error) {
       console.error(error);
     }

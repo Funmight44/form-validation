@@ -32,7 +32,7 @@ const Login = () => {
         }catch(error){
            if (error.code === "auth/user-not-found") {
             setError({email: "User not found, please sign up" })
-            setTimeout(() => navigate('/'), 2000);
+            setTimeout(() => navigate('/signup'), 2000);
             } else if (error.code === "auth/wrong-password") {
                setError({ password: "Incorrect password" });
             }
