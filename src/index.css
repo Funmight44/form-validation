@@ -61,6 +61,13 @@ form button{
   font-size: 20px;
 }
 
+.onboarding{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
 
 .onboarding h2{
   text-align: center;
@@ -70,4 +77,68 @@ form button{
 
 .onboarding p{
   text-align: center;
+}
+
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  font-family: Arial, sans-serif;
+  background-color: #f9fafb;
+  min-height: 100vh;
+}
+
+.dashboard h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #111827;
+}
+
+.dashboard p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #374151;
+}
+
+.dashboard button {
+  padding: 12px 25px;
+  background-color: #4f46e5; 
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.dashboard button:hover {
+  background-color: #4338ca;
+  transform: translateY(-2px);
+}
+
+.dashboard button:active {
+  background-color: #3730a3;
+  transform: translateY(0);
+}
+
+
+
+
+@media (max-width: 768px) {
+  main{
+      width: 95%;
+  }
+
+  form div{
+    width: 100%;
+    font-size:15px;
+  }
+
+  form button{
+    font-size: 17px;
+    width: 100%;
+  }
 }
