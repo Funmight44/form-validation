@@ -37,8 +37,10 @@ const Dashboard = () => {
     <div className="dashboard">
       <h2>Dashboard</h2>
       <p>Welcome, {user?.email}</p>
-      <button  onClick={handleLogout}>Logout</button>
-      <button  onClick={() => navigate('/')}>Home</button>
+      <div className="dashboard-btns">
+        <button  onClick={handleLogout}>Logout</button>
+        <button  onClick={() => navigate('/')}>Home</button>
+      </div>
     </div>
   );
 };
