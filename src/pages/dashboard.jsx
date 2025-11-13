@@ -38,6 +38,7 @@ const Dashboard = () => {
       <h2>Dashboard</h2>
       <p>Welcome, {user?.email}</p>
       <button  onClick={handleLogout}>Logout</button>
+      <button  onClick={() => navigate('/')}>Home</button>
     </div>
   );
 };
